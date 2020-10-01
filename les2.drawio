@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-01T07:22:16.395Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36 OPR/70.0.3728.189" etag="8zZSvaiPDd1f_Fh-bGCA" version="13.7.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-10-01T07:24:18.585Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36 OPR/70.0.3728.189" etag="HdI0sOTbktpFiHAkjVFD" version="13.7.7" type="github" pages="4">
   <diagram id="QiUV2goRBN8TWBWsk0Rf" name="les2_task1">
     <mxGraphModel dx="1238" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -373,6 +373,14 @@
         <mxCell id="dNRRtcjqZOF84pTEjdOz-12" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="qcOrj9VcJullrC8qo-P2-1">
           <mxGeometry x="425" y="1290" width="120" height="50" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="JJutVEpm00vpJJa7lSZI" name="les2_task4">
+    <mxGraphModel dx="1238" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="tm6ziabQgW1laIVo6VbK-0" />
+        <mxCell id="tm6ziabQgW1laIVo6VbK-1" parent="tm6ziabQgW1laIVo6VbK-0" />
       </root>
     </mxGraphModel>
   </diagram>
