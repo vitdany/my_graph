@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2020-10-01T06:26:29.353Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36 OPR/70.0.3728.189" etag="GJfCW6NxRsQO8rl8u6Ag" version="13.7.7" type="github">
-  <diagram id="QiUV2goRBN8TWBWsk0Rf" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2020-10-01T06:32:59.557Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36 OPR/70.0.3728.189" etag="VDWjb4rvxs1VOQ9RR5rP" version="13.7.7" type="github">
+  <diagram id="QiUV2goRBN8TWBWsk0Rf" name="les2_task1">
     <mxGraphModel dx="1238" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -97,6 +97,44 @@
         </mxCell>
         <mxCell id="7AR-TBD1_FxG_yaQ8DCq-28" value="допустимые операции +-/*" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7AR-TBD1_FxG_yaQ8DCq-38" value="stop = true" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="910" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7AR-TBD1_FxG_yaQ8DCq-39" value="stop = false&lt;br&gt;oper = &#39;+-/*&#39;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7AR-TBD1_FxG_yaQ8DCq-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7AR-TBD1_FxG_yaQ8DCq-40" target="7AR-TBD1_FxG_yaQ8DCq-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7AR-TBD1_FxG_yaQ8DCq-40" value="j in s" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1080" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7AR-TBD1_FxG_yaQ8DCq-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7AR-TBD1_FxG_yaQ8DCq-41" target="7AR-TBD1_FxG_yaQ8DCq-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7AR-TBD1_FxG_yaQ8DCq-41" value="ввод строки s типа&amp;nbsp;&lt;br&gt;2+2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1000" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7AR-TBD1_FxG_yaQ8DCq-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7AR-TBD1_FxG_yaQ8DCq-42" target="7AR-TBD1_FxG_yaQ8DCq-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7AR-TBD1_FxG_yaQ8DCq-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7AR-TBD1_FxG_yaQ8DCq-42" target="7AR-TBD1_FxG_yaQ8DCq-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7AR-TBD1_FxG_yaQ8DCq-49" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7AR-TBD1_FxG_yaQ8DCq-47">
+          <mxGeometry x="-0.245" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7AR-TBD1_FxG_yaQ8DCq-42" value="j in oper" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7AR-TBD1_FxG_yaQ8DCq-43" value="a = buf&lt;br&gt;buf = None&lt;br&gt;c=j&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7AR-TBD1_FxG_yaQ8DCq-44" value="buf += j" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1380" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
