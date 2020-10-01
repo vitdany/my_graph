@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-01T07:24:18.585Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36 OPR/70.0.3728.189" etag="HdI0sOTbktpFiHAkjVFD" version="13.7.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-10-01T07:27:38.680Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36 OPR/70.0.3728.189" etag="fqZeTESAdCD2URllj-Ac" version="13.7.7" type="github" pages="4">
   <diagram id="QiUV2goRBN8TWBWsk0Rf" name="les2_task1">
     <mxGraphModel dx="1238" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -381,6 +381,32 @@
       <root>
         <mxCell id="tm6ziabQgW1laIVo6VbK-0" />
         <mxCell id="tm6ziabQgW1laIVo6VbK-1" parent="tm6ziabQgW1laIVo6VbK-0" />
+        <mxCell id="tm6ziabQgW1laIVo6VbK-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="tm6ziabQgW1laIVo6VbK-1" source="tm6ziabQgW1laIVo6VbK-2" target="tm6ziabQgW1laIVo6VbK-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6ziabQgW1laIVo6VbK-2" value="sequences( x, n)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="tm6ziabQgW1laIVo6VbK-1">
+          <mxGeometry x="290" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6ziabQgW1laIVo6VbK-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tm6ziabQgW1laIVo6VbK-1" source="tm6ziabQgW1laIVo6VbK-16" target="tm6ziabQgW1laIVo6VbK-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6ziabQgW1laIVo6VbK-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="tm6ziabQgW1laIVo6VbK-1" source="tm6ziabQgW1laIVo6VbK-16" target="tm6ziabQgW1laIVo6VbK-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6ziabQgW1laIVo6VbK-22" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tm6ziabQgW1laIVo6VbK-21">
+          <mxGeometry x="-0.4384" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tm6ziabQgW1laIVo6VbK-16" value="n == 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="tm6ziabQgW1laIVo6VbK-1">
+          <mxGeometry x="310" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6ziabQgW1laIVo6VbK-18" value="return 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tm6ziabQgW1laIVo6VbK-1">
+          <mxGeometry x="290" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6ziabQgW1laIVo6VbK-19" value="return x+sequences(-x/2, n-1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tm6ziabQgW1laIVo6VbK-1">
+          <mxGeometry x="470" y="320" width="190" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
